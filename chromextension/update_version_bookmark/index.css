@@ -1,0 +1,59 @@
+#user_screen{
+    border:3px solid black;
+    width:300px;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:150px;
+    display:flex;
+    flex-direction: column;
+    min-height:450px;
+    height:auto;
+    position:relative;
+}
+#homedetails{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#homehead{
+    text-align: center;
+    padding:100px 20px 10px 20px;
+}
+#icon-img{
+    width:50px;
+    height:50px;
+    margin-bottom:90px;
+
+}
+#btns{
+    display:flex;
+    flex-direction: column;
+    position:absolute;
+    bottom:0;
+}
+.last_btn{
+    padding:15px;
+    font-size: 20px;
+    width:300px;
+    margin-top:5px;
+}
+.folder{
+    padding:10px;
+    background-image: url('folder.png');
+    background-size:20px 20px;
+    background-position:20px;
+    background-repeat: no-repeat;
+
+}
+.folder:active{
+    background-color:aquamarine;
+}
+
+.inside_folder > .back_btn{
+    width:300px;
+    padding:15px;
+    background-image: url('return.png');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
