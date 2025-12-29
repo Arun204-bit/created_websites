@@ -210,8 +210,8 @@ const addtolist=(item,count_num)=>{
 const create_folder=()=>{
     const new_btn=document.createElement("button")
     new_btn.classList.add("folder")
-    new_btn.id=`folder${count}`
-    new_btn.textContent=get_file_name(count)
+    new_btn.id=get_file_name(count)
+    new_btn.textContent=new_btn.id
     console.log(new_btn.textContent)
     const folder=new file(new_btn.textContent,new_btn)
     console.log(folder.element)
